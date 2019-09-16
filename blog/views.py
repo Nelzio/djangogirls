@@ -1,4 +1,5 @@
 from django.shortcuts import render
 
 def blog(request):
-    pass
+    data = {}
+    return render(request, 'blog/index.html', data)
